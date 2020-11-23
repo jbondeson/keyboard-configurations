@@ -29,6 +29,11 @@
           "name": "standard",
           "display": "Standard",
           "file": "standard.json"
+        },
+        {
+          "name": "no-animations",
+          "display": "No Animations",
+          "file": "no-animations.json"
         }
       ],
       "animations": {
