@@ -1,6 +1,11 @@
 {
   "keyboard": "Kira",
   "display": "Kira",
+  "image": {
+    "file": "kira.png",
+    "width": 1500,
+    "height": 1000
+  },
   "aliases": ["Kira"],
   "variants": [
     {

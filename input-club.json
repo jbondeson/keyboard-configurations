@@ -1,5 +1,10 @@
 {
     "keyboards": [
         "Kira"
-    ]
+    ],
+    "image": {
+        "file": "input-club.png",
+        "width": 1500,
+        "height": 1000
+    }
 }
