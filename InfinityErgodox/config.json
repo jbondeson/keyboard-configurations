@@ -1,0 +1,42 @@
+{
+  "keyboard": "Infinity Ergodox",
+  "display": "Infinity Ergodox",
+  "image": {
+    "file": "infinity_ergodox.jpg",
+    "width": 1500,
+    "height": 1000
+  },
+  "aliases": ["MDErgo1", "Infinity_Ergodox"],
+  "variants": [
+    {
+      "name": "standard",
+      "display": "Standard",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0003", "flash": true },
+        { "vid": "0x308f", "pid": "0x0004", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": true,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "layouts": [
+        {
+        "name": "default",
+        "display": "Default",
+        "file": "default.json"
+        },
+        {
+        "name": "blank",
+        "display": "Blank",
+        "file": "blank.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    }
+  ]
+}

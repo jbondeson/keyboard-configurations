@@ -1,7 +1,8 @@
 {
     "keyboards": [
+        "Kira",
         "K-Type",
-        "Kira"
+        "InfinityErgodox"
     ],
     "image": {
         "file": "input-club.png",
