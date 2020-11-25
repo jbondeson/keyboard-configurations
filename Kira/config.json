@@ -12,8 +12,8 @@
       "name": "standard",
       "display": "Standard",
       "identities": [
-        { "vid": "0x308f", "pid": "0x0012", "flash": false },
-        { "vid": "0x308f", "pid": "0x0013", "flash": true }
+        { "vid": "0x308f", "pid": "0x0012", "flash": true },
+        { "vid": "0x308f", "pid": "0x0013", "flash": false }
       ],
       "isSplit": false,
       "resetCombo": "\"Right Ctrl + Right Shift + Esc\"",
