@@ -1,12 +1,12 @@
 {
-  "keyboard": "infinity60",
-  "display": "Infinity 60%",
+  "keyboard": "infinity60Led",
+  "display": "Infinity 60% LED",
   "image": {
     "file": "infinity_60.png",
     "width": 1500,
     "height": 1000
   },
-  "aliases": ["MD1", "Infinity_60%", "Infinity_60"],
+  "aliases": ["MD1.1", "Infinity_60%_LED", "Infinity_60_LED"],
   "variants": [
     {
       "name": "standard",
