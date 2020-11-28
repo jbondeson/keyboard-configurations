@@ -21,7 +21,7 @@
       ],
       "isSplit": false,
       "resetCombo": "\"Fn + Esc\"",
-      "visuals": "single-color",
+      "visuals": "none",
       "physical": {
         "rows": [0, 1, 2, 3, 4],
         "keys": [
@@ -61,7 +61,7 @@
       ],
       "isSplit": false,
       "resetCombo": "\"Fn + Esc\"",
-      "visuals": "single-color",
+      "visuals": "none",
       "physical": {
         "rows": [0, 1, 2, 3, 4],
         "keys": [
