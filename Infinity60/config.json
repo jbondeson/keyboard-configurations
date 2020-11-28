@@ -1,0 +1,92 @@
+{
+  "keyboard": "infinity60",
+  "display": "Infinity 60%",
+  "image": {
+    "file": "infinity_60.png",
+    "width": 1500,
+    "height": 1000
+  },
+  "aliases": ["MD1", "Infinity_60%", "Infinity_60"],
+  "variants": [
+    {
+      "name": "standard",
+      "display": "Standard",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0000", "flash": true },
+        { "vid": "0x308f", "pid": "0x0001", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25",
+          "2.25 1 1 1 1 1 1 1 1 1 1 1.75 1",
+          "1.25d 1.25d 1.25d 6.25d 1.25d 1.25d 1.25d 1.25d"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "standard",
+        "display": "Standard",
+        "file": "standard.json"
+        },
+        {
+        "name": "blank",
+        "display": "blank",
+        "file": "standard-blank.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    }
+    {
+      "name": "hacker",
+      "display": "Hacker",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0000", "flash": true },
+        { "vid": "0x308f", "pid": "0x0002", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25",
+          "2.25 1 1 1 1 1 1 1 1 1 1 1.75 1",
+          "1.5d 1d 1.5d 6d 1.5d 1d 1d 1.5d"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "hacker",
+        "display": "Hacker",
+        "file": "hacker.json"
+        },
+        {
+        "name": "blank",
+        "display": "blank",
+        "file": "hacker-blank.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    }
+  ]
+}
