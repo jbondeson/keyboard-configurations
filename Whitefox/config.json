@@ -1,0 +1,222 @@
+{
+  "keyboard": "WhiteFox",
+  "display": "WhiteFox",
+  "image": {
+    "file": "whitefox.jpg",
+    "width": 1500,
+    "height": 1000
+  },
+  "aliases": ["WhiteFox", "Whitefox"],
+  "variants": [
+    {
+      "name": "truefox",
+      "display": "The True Fox",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x000a", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 1d 1d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5d 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25d 1",
+          "2.25d 1 1 1 1 1 1 1 1 1 1 1.75d 1d 1",
+          "1.25d 1.25d 1.25d 6.25d 1.25d 1.25d 0.5s 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "truefox",
+        "display": "The True Fox",
+        "file": "truefox.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    },
+    {
+      "name": "aria",
+      "display": "Aria",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x0008", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 2d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5d 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25d 1",
+          "2.25d 1 1 1 1 1 1 1 1 1 1 1.75d 1d 1",
+          "1.25d 1.25d 1.25d 6.25d 1.25d 1.25d 0.5s 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "aria",
+        "display": "Aria",
+        "file": "aria.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    },
+    {
+      "name": "iso",
+      "display": "Iso",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x0007", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 2d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5s 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 1d 1.25d 1",
+          "1.25d 1d 1 1 1 1 1 1 1 1 1 1 1.75d 1d 1",
+          "1.25d 1.25d 1.25d 6.25d 1d 1d 1d 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "iso",
+        "display": "Iso",
+        "file": "iso.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    },
+    {
+      "name": "vanilla",
+      "display": "Vanilla",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x0006", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 2d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5d 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25d 1",
+          "2.25d 1 1 1 1 1 1 1 1 1 1 1.75d 1d 1",
+          "1.25d 1.25d 1.25d 6.25d 1d 1d 1d 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "vanilla",
+        "display": "Vanilla",
+        "file": "vanilla.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    },
+    {
+      "name": "jack",
+      "display": "Jack of All Trades",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x000b", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 2d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5d 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25d 1",
+          "2.25d 1 1 1 1 1 1 1 1 1 1 2.75d 1",
+          "1.25d 1.25d 1.25d 6.25d 1.25d 1.25d 0.5s 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "jack",
+        "display": "Jack of All Trades",
+        "file": "jack-of-all-trades.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    },
+    {
+      "name": "winkeyless",
+      "display": "Winkeyless",
+      "identities": [
+        { "vid": "0x308f", "pid": "0x0005", "flash": true },
+        { "vid": "0x308f", "pid": "0x0009", "flash": false },
+        { "vid": "0x1c11", "pid": "0xb007", "flash": true },
+        { "vid": "0x1c11", "pid": "0xb04d", "flash": false },
+        { "vid": "0x1209", "pid": "0x01cb", "flash": true },
+        { "vid": "0x1209", "pid": "0x01c0", "flash": false }
+      ],
+      "isSplit": false,
+      "resetCombo": "\"Fn + Esc\"",
+      "visuals": "single-color",
+      "physical": {
+        "rows": [0, 1, 2, 3, 4],
+        "keys": [
+          "1 1 1 1 1 1 1 1 1 1 1 1 1 2d 1",
+          "1.5 1 1 1 1 1 1 1 1 1 1 1 1 1.5d 1",
+          "1.75 1 1 1 1 1 1 1 1 1 1 1 2.25d 1",
+          "2.25d 1 1 1 1 1 1 1 1 1 1 1.75d 1d 1",
+          "1.5d 1.5d 7d 1.5d 1.5d 1 1 1"
+        ]
+      },
+      "layouts": [
+        {
+        "name": "winkeyless",
+        "display": "Winkeyless",
+        "file": "winkeyless.json"
+        }
+      ],
+      "animations": {
+        "canned": {}
+      }
+    }
+  ]
+}
